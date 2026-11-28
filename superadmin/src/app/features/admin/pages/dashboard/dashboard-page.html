@@ -246,6 +246,8 @@
                   <small>Not rated yet</small>
                 } @else {
                   <small>Saved profile score</small>
+                } @else {
+                  <small>No saved rating</small>
                 }
               </span>
               <strong class="provider-score">{{ formatRating(provider.profile.rating) }}</strong>
